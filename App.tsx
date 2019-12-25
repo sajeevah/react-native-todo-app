@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
-import {Text} from 'react-native';
+import MainTodo from './components/MainTodo.component';
 
 class App extends Component {
   render() {
-    return <Text>Hello There</Text>;
+    return <MainTodo />;
   }
 }
 
