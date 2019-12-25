@@ -9,11 +9,14 @@ class MainTodo extends Component {
         {
           task: 'Learn React Native',
         },
+        {
+          task: 'Learn React',
+        },
       ],
     };
   }
   render() {
-    return <TaskList />;
+    return <TaskList todos={this.state.todos} />;
   }
 }
 
