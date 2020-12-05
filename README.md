@@ -1,2 +1,2 @@
-# react-native-todo-app
+# react native todo app
 simple todo mobile app
